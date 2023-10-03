@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Kris Pan\'s';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : '"AI Perspectives: A Deep Dive into Personal Insights"';
+    : '"Dev Blog: Personal Insights into AI"';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved. My Blog posts do not represent my employer.';
